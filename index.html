@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Random Quote Machine</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7"
+    crossorigin="anonymous">
+  <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css'>
+  <link href="https://fonts.googleapis.com/css?family=Lato:300|Source+Sans+Pro:400i" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <div class="container" id="buttons">
+    <div class="row" id="buttons">
+      <div class="col-sm-4 col-sm-offset-2 col-xs-6">
+        <a id="random-quote-button" class="btn btn-default btn-lg btn-block" href="#"><i class="fa fa-refresh fa-2x"></i> Random</a>
+      </div>
+      <div class="col-sm-4 col-xs-6">
+        <a id="tweet-button" class="btn btn-default btn-lg btn-block" href="#" target="_blank"><i class="fa fa-twitter fa-2x"></i> Tweet</a>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-8 col-sm-offset-2">
+        <blockquote id="random-quote">
+          <i class="fa fa-quote-left fa-2x fa-pull-left"></i>
+          <p id="quote-text">Why does no one say anything interesting...</p>
+          <footer id="quote-author">Author Unknown</footer>
+        </blockquote>
+      </div>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS"
+    crossorigin="anonymous"></script>
+  <script src="js/index.js"></script>
+</body>
+</html>
